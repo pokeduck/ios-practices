@@ -1,6 +1,5 @@
 # 安裝
 
-1. ``mint bootstrap --link`` 安裝 Mintfile所有的套件， --link 為建立 Global 連結，在其他地方也可以用。
 1. ``brew install rbenv``
 1. ``echo "2.7.2" > .ruby-version`` 設定 ruby 版本
 1. ``source ~/.zshrc`` 重新載入 rbenv，安裝 rbenv會把 ``eval "$(rbenv init -)"`` 塞入 zshrc 或是 bash_profile 中
